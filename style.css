@@ -1,0 +1,63 @@
+h1{
+    text-align:center;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: Protest Strike, sans-serif;
+    color:rgb(233, 194, 39);
+    font-size: 100px;
+    width: 1000px;
+    position: sticky;
+    margin: auto;
+    align-items: center;
+
+    
+    
+    
+
+}
+body{
+    background-image: url(bg.jpg);
+}    
+#yesbutton{
+    display: inline-block;
+    margin: auto;
+    border: none;
+    background-color: white;
+    color:green;
+    position: relative;
+    transition-duration:0.4s;
+}
+#nobutton{
+    display:inline-block;
+    margin:auto;
+    border: none;
+    background-color: white;
+    color:red;
+    position: relative;
+    transition-duration:0.4s;
+}
+#yesbutton:hover{
+    background-color:green ;
+    color: white ;
+    text-align:center;
+    display: inline-block;
+}
+#nobutton:hover{
+        background-color:red ;
+        color: white ;
+        text-align:center;
+        display: inline-block;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.flex-parent{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+button.margin-right{
+    margin-right:20px;
+}

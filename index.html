@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <title>
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+          
+    </head>
+    <body>
+            <audio id="audio" src="yay.mp3" autostart="false">
+            </audio>
+            <h1 id="demo">
+            Lì xì em khum ạ <3?? 
+        </h1>
+            <h1 id="bank" style="display:none">
+                STK: 0937976184
+                Mờ Bê bank kkk
+
+            </h1>
+
+            <br>
+            <img src="cat1.png" id="cat1"> 
+            <div class="flex-parent jc-center"> 
+            <button id="yesbutton" style="font-size:75px; border-radius:20px"
+            onclick= "clickaudio()";
+         >Oker!</button>
+         <button id="nobutton" style="font-size:75px; border-radius:20px"
+         onclick= "Hide()";
+      >Khum</button>
+    </div>
+      
+         <script>
+            function clickaudio(){
+                document.getElementById("demo").innerHTML="XIN CẢM ƠN QUÝ NHÂN PHÙ TRỢ!!!";
+                var sound = document.getElementById('audio');
+                sound.play();
+                document.getElementById("cat1").src="cat2.png";
+                document.getElementById("bank").style.display='block';
+            }
+            function Hide(){
+                document.getElementById("demo").innerHTML="TỆ VẬY TRỜI, THỬ LẠI ĐI!";
+                document.getElementById("nobutton").style.display='none';
+            }
+         </script>
+        </body>
+
+</html>
